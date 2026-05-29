@@ -1,0 +1,27 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:power",
+      "lvl": 101
+    }
+  ],
+  "name": "legendblade:vanity",
+  "properties": {
+    "attack_base": 1000.0,
+    "max_damage": 80,
+    "slash_art": "slashblade:drive_vertical",
+    "special_effects": [
+      "legendblade:eternal",
+      "legendblade:nonepower"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/heartblade/golden.obj",
+    "summon_sword_color": 0,
+    "texture": "legendblade:model/heartblade/dark.png"
+  }
+}

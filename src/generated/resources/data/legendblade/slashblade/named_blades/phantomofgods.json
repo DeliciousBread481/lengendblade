@@ -1,0 +1,27 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 101
+    }
+  ],
+  "name": "legendblade:phantomofgods",
+  "properties": {
+    "attack_base": 45.0,
+    "max_damage": 80,
+    "special_effects": [
+      "legendblade:eternal",
+      "legendblade:darkgod",
+      "prinegorerouse:oracle"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/heartblade/phantomofgods.obj",
+    "summon_sword_color": 0,
+    "texture": "legendblade:model/heartblade/phantomofgods.png"
+  }
+}

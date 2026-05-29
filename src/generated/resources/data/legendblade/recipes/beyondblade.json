@@ -1,0 +1,51 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:beyondblade",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "B": {
+      "item": "minecraft:water_bucket"
+    },
+    "C": {
+      "item": "slashblade:proudsoul_tiny"
+    },
+    "D": {
+      "item": "minecraft:gold_ingot"
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade_silverbamboo",
+      "request": {
+        "kill": 2000,
+        "proud_soul": 4200,
+        "refine": 32,
+        "sword_type": [
+          "broken"
+        ]
+      }
+    },
+    "G": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "legendblade:wonderblade",
+        "refine": 32
+      }
+    },
+    "H": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DED",
+    "CGH"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

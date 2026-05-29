@@ -1,0 +1,29 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:bujin_sword",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:green_dye"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "slashblade:sange"
+      }
+    },
+    "C": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "pattern": [
+    "ACC",
+    "ABC",
+    "AAC"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

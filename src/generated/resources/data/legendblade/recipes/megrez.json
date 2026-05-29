@@ -1,0 +1,38 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:megrez",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:experience_bottle"
+    },
+    "B": {
+      "item": "minecraft:ice"
+    },
+    "C": {
+      "item": "slashblade:proudsoul_crystal"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 1500,
+        "name": "legendblade:white",
+        "proud_soul": 7300,
+        "refine": 30
+      }
+    },
+    "E": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "BDB",
+    "CBE"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

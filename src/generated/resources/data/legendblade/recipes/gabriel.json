@@ -1,0 +1,38 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:gabriel",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:brewing_stand"
+    },
+    "B": {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    "C": {
+      "item": "legendblade:god"
+    },
+    "F": {
+      "item": "minecraft:experience_bottle"
+    },
+    "G": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 1000,
+        "name": "legendblade:zein",
+        "proud_soul": 1500,
+        "refine": 10
+      }
+    }
+  },
+  "pattern": [
+    "FAB",
+    "CGF",
+    "FFF"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

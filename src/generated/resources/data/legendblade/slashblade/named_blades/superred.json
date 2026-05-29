@@ -1,0 +1,22 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 3
+    }
+  ],
+  "name": "legendblade:superred",
+  "properties": {
+    "attack_base": 7.0,
+    "max_damage": 80,
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/named/rustgodfox/model.obj",
+    "summon_sword_color": 16711680,
+    "texture": "legendblade:model/mrzhu/super_red.png"
+  }
+}

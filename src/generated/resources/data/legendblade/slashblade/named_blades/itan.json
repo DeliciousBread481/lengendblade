@@ -1,0 +1,20 @@
+{
+  "name": "legendblade:itan",
+  "properties": {
+    "attack_base": 26.0,
+    "max_damage": 80,
+    "special_effects": [
+      "legendblade:eternal",
+      "legendblade:zain"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/heartblade/itan.obj",
+    "summon_sword_color": 0,
+    "texture": "legendblade:model/heartblade/itan.png"
+  }
+}

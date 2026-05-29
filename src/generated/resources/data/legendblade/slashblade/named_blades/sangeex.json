@@ -1,0 +1,31 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    }
+  ],
+  "name": "legendblade:sangeex",
+  "properties": {
+    "attack_base": 25.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:sannight",
+    "special_effects": [
+      "legendblade:sannight"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "color_inverse": true,
+    "model": "legendblade:model/sangeex/sange.obj",
+    "summon_sword_color": 14404023,
+    "texture": "legendblade:model/sangeex/sange.png"
+  }
+}

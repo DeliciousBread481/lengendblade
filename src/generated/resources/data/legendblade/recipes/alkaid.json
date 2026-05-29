@@ -1,0 +1,38 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:alkaid",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_crystal"
+    },
+    "B": {
+      "item": "slashblade:proudsoul_trapezohedron"
+    },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 1500,
+        "name": "legendblade:white",
+        "proud_soul": 7300,
+        "refine": 30
+      }
+    },
+    "D": {
+      "item": "minecraft:emerald_block"
+    },
+    "E": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "BDB",
+    "EBA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,40 @@
+{
+  "feature": "legendblade:proud_soul_tree",
+  "placement": [
+
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+
+
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 50
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "value": { "min_inclusive": 1, "max_inclusive": 2 }
+      }
+    },
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 0
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "legendblade:proud_soul_sampling",
+          "Properties": { "stage": "0" }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 2
+    }
+  ],
+  "name": "legendblade:xblades",
+  "properties": {
+    "attack_base": 25.0,
+    "max_damage": 80,
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/pseudo/named/pseudosword/xblades/xblades.obj",
+    "summon_sword_color": 16711680,
+    "texture": "legendblade:model/pseudo/named/pseudosword/xblades/xblades.png"
+  }
+}

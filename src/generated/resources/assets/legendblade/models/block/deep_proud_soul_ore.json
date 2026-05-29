@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "legendblade:block/deep_proud_soul_ore"
+  }
+}

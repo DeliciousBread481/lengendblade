@@ -1,0 +1,39 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:knockback",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 5
+    }
+  ],
+  "name": "legendblade:charlierex",
+  "properties": {
+    "attack_base": 15.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:wakeup",
+    "special_effects": [
+      "legendblade:pure",
+      "legendblade:justice"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/virtue/two/charlierex/1.obj",
+    "summon_sword_color": 14540253,
+    "texture": "legendblade:model/virtue/two/charlierex/1.png"
+  }
+}

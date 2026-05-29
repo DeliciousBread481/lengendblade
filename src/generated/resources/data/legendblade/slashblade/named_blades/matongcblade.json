@@ -1,0 +1,31 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:thorns",
+      "lvl": 10
+    }
+  ],
+  "name": "legendblade:matongcblade",
+  "properties": {
+    "attack_base": 30.0,
+    "max_damage": 80,
+    "slash_art": "slashblade_addon:water_drive",
+    "special_effects": [
+      "legendblade:eternal",
+      "legendblade:breakall"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/heartblade/matongcblade.obj",
+    "summon_sword_color": 45311,
+    "texture": "legendblade:model/heartblade/matongcblade.png"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:dragonblade",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:dragon_egg"
+    },
+    "B": {
+      "item": "minecraft:nether_star"
+    },
+    "C": {
+      "item": "minecraft:glowstone"
+    },
+    "D": {
+      "item": "minecraft:obsidian"
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 2000,
+        "name": "legendblade:xblades",
+        "proud_soul": 20000,
+        "refine": 10
+      }
+    },
+    "F": {
+      "item": "minecraft:iron_block"
+    },
+    "G": {
+      "item": "minecraft:end_stone"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DEF",
+    "BGB"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,35 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:smite",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    }
+  ],
+  "name": "legendblade:urielx",
+  "properties": {
+    "attack_base": 15.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:ultra_slash",
+    "special_effects": [
+      "legendblade:justice",
+      "legendblade:eternal"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/virtue/two/urielx/1.obj",
+    "summon_sword_color": 14540253,
+    "texture": "legendblade:model/virtue/two/urielx/1.png"
+  }
+}

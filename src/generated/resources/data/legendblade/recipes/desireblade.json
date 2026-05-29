@@ -1,0 +1,55 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:desireblade",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "B": {
+      "item": "legendblade:luxuria"
+    },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "enchantments": [
+          {
+            "id": "minecraft:sharpness",
+            "lvl": 3
+          },
+          {
+            "id": "minecraft:feather_falling"
+          }
+        ],
+        "kill": 1500,
+        "name": "legendblade:asmodeus",
+        "proud_soul": 3000,
+        "refine": 10
+      }
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "legendblade:wonderblade",
+        "refine": 35
+      }
+    },
+    "E": {
+      "item": "minecraft:blaze_rod"
+    },
+    "F": {
+      "item": "minecraft:pink_bed"
+    }
+  },
+  "pattern": [
+    "ABB",
+    "ACD",
+    "EFE"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,39 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:knockback",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:thorns",
+      "lvl": 5
+    }
+  ],
+  "name": "legendblade:gabrielex",
+  "properties": {
+    "attack_base": 34.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:circleslashex",
+    "special_effects": [
+      "legendblade:maxsky",
+      "legendblade:theshine"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/virtue/two/gabrielex/1.obj",
+    "summon_sword_color": 14540253,
+    "texture": "legendblade:model/virtue/two/gabrielex/1.png"
+  }
+}

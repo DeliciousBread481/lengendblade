@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "legendblade:block/proud_soul_sampling"
+  }
+}

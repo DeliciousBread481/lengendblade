@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "legendblade:god"
+    },
+    "B": {
+      "item": "minecraft:potion"
+    }
+  },
+  "pattern": [
+    "BAB",
+    "AAA",
+    "BAB"
+  ],
+  "result": {
+    "item": "legendblade:godex"
+  },
+  "show_notification": true
+}

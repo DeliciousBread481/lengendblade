@@ -1,0 +1,22 @@
+{
+  "name": "legendblade:solomon",
+  "properties": {
+    "attack_base": 40.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:alloverex2",
+    "special_effects": [
+      "legendblade:theinescapableguilt",
+      "legendblade:helplessrest",
+      "legendblade:anuntraceablehope"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/solmen/solomon.obj",
+    "summon_sword_color": 21503,
+    "texture": "legendblade:model/solmen/solomon.png"
+  }
+}

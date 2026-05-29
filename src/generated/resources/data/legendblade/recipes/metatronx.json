@@ -1,0 +1,45 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:metatronx",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "legendblade:godex"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "legendblade:holy"
+      }
+    },
+    "C": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 2500,
+        "name": "legendblade:metatron",
+        "proud_soul": 35000,
+        "refine": 50
+      }
+    },
+    "E": {
+      "item": "legendblade:soul_crystal"
+    },
+    "F": {
+      "item": "minecraft:light_gray_dye"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "FEF"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

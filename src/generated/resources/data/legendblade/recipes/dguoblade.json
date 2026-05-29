@@ -1,0 +1,53 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:dguoblade",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:potato"
+    },
+    "B": {
+      "item": "minecraft:stone"
+    },
+    "C": {
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "D": {
+      "item": "minecraft:water_bucket"
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 1500,
+        "name": "slashblade:yamato",
+        "proud_soul": 10400,
+        "refine": 50
+      }
+    },
+    "F": {
+      "item": "minecraft:name_tag"
+    },
+    "G": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "legendblade:wonderblade",
+        "proud_soul": 8400,
+        "refine": 50
+      }
+    },
+    "H": {
+      "item": "minecraft:bone"
+    }
+  },
+  "pattern": [
+    "CBA",
+    "DEF",
+    "HGC"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

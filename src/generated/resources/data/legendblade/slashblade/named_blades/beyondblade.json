@@ -1,0 +1,35 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 7
+    },
+    {
+      "id": "minecraft:fortune",
+      "lvl": 7
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 7
+    }
+  ],
+  "name": "legendblade:beyondblade",
+  "properties": {
+    "attack_base": 30.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:getthrust",
+    "special_effects": [
+      "legendblade:eternal",
+      "legendblade:devastate"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/heartblade/beyondblade.obj",
+    "summon_sword_color": 16772352,
+    "texture": "legendblade:model/heartblade/beyondblade.png"
+  }
+}

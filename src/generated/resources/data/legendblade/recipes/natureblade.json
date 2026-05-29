@@ -1,0 +1,55 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:natureblade",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:stone"
+    },
+    "B": {
+      "item": "minecraft:iron_sword"
+    },
+    "C": {
+      "item": "minecraft:grass_block"
+    },
+    "D": {
+      "item": "minecraft:wooden_hoe"
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 2000,
+        "name": "slashblade:tagayasan",
+        "proud_soul": 4200,
+        "refine": 32
+      }
+    },
+    "F": {
+      "item": "minecraft:water_bucket"
+    },
+    "G": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "H": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "legendblade:wonderblade",
+        "refine": 32
+      }
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DEF",
+    "GHI"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

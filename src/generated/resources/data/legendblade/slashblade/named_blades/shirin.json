@@ -1,0 +1,23 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 3
+    }
+  ],
+  "name": "legendblade:shirin",
+  "properties": {
+    "attack_base": 7.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:slashshine",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/named/rustgodfox/model.obj",
+    "summon_sword_color": 12124399,
+    "texture": "legendblade:model/mrzhu/shirin.jpg"
+  }
+}

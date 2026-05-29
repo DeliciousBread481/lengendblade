@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "legendblade:deep_proud_soul_ore_placed",
+  "step": "underground_ores"
+}

@@ -1,0 +1,35 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:smite",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:knockback",
+      "lvl": 6
+    },
+    {
+      "id": "minecraft:bane_of_arthropods",
+      "lvl": 10
+    }
+  ],
+  "name": "legendblade:starriverblade",
+  "properties": {
+    "attack_base": 32.0,
+    "max_damage": 80,
+    "slash_art": "slashblade:drive_vertical",
+    "special_effects": [
+      "legendblade:eternal",
+      "legendblade:shinening"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/heartblade/starriverblade.obj",
+    "summon_sword_color": 16772352,
+    "texture": "legendblade:model/heartblade/starriverblade.png"
+  }
+}

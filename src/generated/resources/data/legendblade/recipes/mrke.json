@@ -1,0 +1,35 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:mrke",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:tnt"
+    },
+    "B": {
+      "item": "slashblade:proudsoul_tiny"
+    },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 1000,
+        "name": "legendblade:wonderblade",
+        "proud_soul": 40000,
+        "refine": 17
+      }
+    },
+    "D": {
+      "item": "minecraft:diamond_sword"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BCB",
+    "ADA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

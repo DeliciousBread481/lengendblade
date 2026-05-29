@@ -1,0 +1,51 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:iceblade",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:diamond_sword"
+    },
+    "B": {
+      "item": "minecraft:snow"
+    },
+    "C": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "D": {
+      "item": "minecraft:ice"
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade_silverbamboo",
+      "request": {
+        "kill": 1500,
+        "proud_soul": 7300,
+        "refine": 30,
+        "sword_type": [
+          "broken"
+        ]
+      }
+    },
+    "G": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "legendblade:wonderblade",
+        "refine": 32
+      }
+    },
+    "H": {
+      "item": "minecraft:ice"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DED",
+    "CGH"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

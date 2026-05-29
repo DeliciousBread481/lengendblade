@@ -1,0 +1,41 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:pseudosword",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "B": {
+      "item": "minecraft:nether_star"
+    },
+    "C": {
+      "item": "slashblade:proudsoul"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 2000,
+        "name": "legendblade:xblades",
+        "proud_soul": 20000,
+        "refine": 10
+      }
+    },
+    "F": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DEC",
+    "FBC"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

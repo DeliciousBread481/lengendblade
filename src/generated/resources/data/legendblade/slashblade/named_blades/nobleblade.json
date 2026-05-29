@@ -1,0 +1,28 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 9
+    }
+  ],
+  "name": "legendblade:nobleblade",
+  "properties": {
+    "attack_base": 25.0,
+    "max_damage": 80,
+    "slash_art": "slashblade:drive_vertical",
+    "special_effects": [
+      "legendblade:eternal",
+      "legendblade:endurancetower"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "color_inverse": true,
+    "model": "legendblade:model/heartblade/nobleblade.obj",
+    "summon_sword_color": 9922895,
+    "texture": "legendblade:model/heartblade/nobleblade.png"
+  }
+}

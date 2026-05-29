@@ -1,0 +1,50 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:reflection",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:gold_block"
+    },
+    "B": {
+      "item": "minecraft:glass"
+    },
+    "C": {
+      "item": "minecraft:diamond"
+    },
+    "D": {
+      "item": "slashblade:proudsoul_trapezohedron"
+    },
+    "E": {
+      "item": "minecraft:diamond"
+    },
+    "F": {
+      "item": "minecraft:lapis_block"
+    },
+    "G": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 1500,
+        "name": "legendblade:temperance",
+        "proud_soul": 30000,
+        "refine": 10
+      }
+    },
+    "H": {
+      "item": "slashblade:proudsoul_trapezohedron"
+    },
+    "I": {
+      "item": "minecraft:poppy"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DEF",
+    "GHI"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

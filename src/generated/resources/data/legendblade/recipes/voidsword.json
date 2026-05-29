@@ -1,0 +1,65 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:voidsword",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:redstone_ore"
+    },
+    "B": {
+      "item": "minecraft:ghast_tear"
+    },
+    "C": {
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "D": {
+      "item": "minecraft:obsidian"
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade_silverbamboo",
+      "request": {
+        "enchantments": [
+          {
+            "id": "minecraft:unbreaking",
+            "lvl": 3
+          },
+          {
+            "id": "minecraft:thorns",
+            "lvl": 3
+          }
+        ],
+        "kill": 1500,
+        "proud_soul": 8400,
+        "refine": 42,
+        "sword_type": [
+          "broken"
+        ]
+      }
+    },
+    "F": {
+      "item": "minecraft:nether_star"
+    },
+    "G": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "legendblade:wonderblade",
+        "proud_soul": 8400,
+        "refine": 50
+      }
+    },
+    "H": {
+      "item": "minecraft:enchanted_golden_apple"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DEF",
+    "CGH"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,22 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 3
+    }
+  ],
+  "name": "legendblade:ten_blades",
+  "properties": {
+    "attack_base": 7.0,
+    "max_damage": 80,
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/named/rustgodfox/model.obj",
+    "summon_sword_color": 21503,
+    "texture": "legendblade:model/mrzhu/saber.png"
+  }
+}

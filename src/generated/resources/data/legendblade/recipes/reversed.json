@@ -1,0 +1,47 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:reversed",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:spider_eye"
+    },
+    "B": {
+      "item": "minecraft:redstone_block"
+    },
+    "C": {
+      "item": "minecraft:nether_star"
+    },
+    "D": {
+      "item": "minecraft:poppy"
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 3000,
+        "name": "legendblade:reflection",
+        "proud_soul": 7300,
+        "refine": 30
+      }
+    },
+    "F": {
+      "item": "minecraft:bone"
+    },
+    "G": {
+      "item": "minecraft:obsidian"
+    },
+    "H": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DEF",
+    "GHG"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

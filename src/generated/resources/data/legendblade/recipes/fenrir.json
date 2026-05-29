@@ -1,0 +1,38 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:fenrir",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_crystal"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 1500,
+        "name": "legendblade:white",
+        "proud_soul": 7300,
+        "refine": 30
+      }
+    },
+    "C": {
+      "item": "minecraft:sea_lantern"
+    },
+    "D": {
+      "item": "slashblade:proudsoul_trapezohedron"
+    },
+    "E": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "CEC"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

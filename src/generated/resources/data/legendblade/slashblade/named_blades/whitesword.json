@@ -1,0 +1,28 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:looting"
+    },
+    {
+      "id": "minecraft:fire_aspect"
+    }
+  ],
+  "name": "legendblade:whitesword",
+  "properties": {
+    "attack_base": 28.0,
+    "max_damage": 80,
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/pseudo/named/pseudosword/sword/sword.obj",
+    "summon_sword_color": 16777215,
+    "texture": "legendblade:model/pseudo/named/pseudosword/sword/whitensword.png"
+  }
+}

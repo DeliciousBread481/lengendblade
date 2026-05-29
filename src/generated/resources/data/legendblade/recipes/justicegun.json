@@ -1,0 +1,52 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:justicegun",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_tiny"
+    },
+    "B": {
+      "item": "legendblade:ira"
+    },
+    "C": {
+      "item": "minecraft:dispenser"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 1500,
+        "name": "legendblade:samael",
+        "proud_soul": 4200,
+        "refine": 32
+      }
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "legendblade:wonderblade",
+        "refine": 32
+      }
+    },
+    "F": {
+      "item": "legendblade:superbia"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "H": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "AAB",
+    "CDE",
+    "FGH"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

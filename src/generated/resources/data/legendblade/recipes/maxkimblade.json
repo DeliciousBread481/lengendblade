@@ -1,0 +1,51 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:maxkimblade",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_hoe"
+    },
+    "B": {
+      "item": "minecraft:piston"
+    },
+    "C": {
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "D": {
+      "item": "minecraft:iron_block"
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade_silverbamboo",
+      "request": {
+        "kill": 1000,
+        "proud_soul": 7300,
+        "refine": 30,
+        "sword_type": [
+          "broken"
+        ]
+      }
+    },
+    "G": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "legendblade:wonderblade",
+        "refine": 32
+      }
+    },
+    "H": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DED",
+    "CGH"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

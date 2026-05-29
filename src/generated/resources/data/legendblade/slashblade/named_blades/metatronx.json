@@ -1,0 +1,39 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:mending",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:knockback",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:thorns",
+      "lvl": 3
+    }
+  ],
+  "name": "legendblade:metatronx",
+  "properties": {
+    "attack_base": 40.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:judgement_cut_exbig",
+    "special_effects": [
+      "legendblade:justice",
+      "legendblade:nofear"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/virtue/two/metatronx/1.obj",
+    "summon_sword_color": 14540253,
+    "texture": "legendblade:model/virtue/two/metatronx/1.png"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:temperance",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:book"
+    },
+    "B": {
+      "item": "minecraft:poppy"
+    },
+    "C": {
+      "item": "minecraft:iron_block"
+    },
+    "D": {
+      "item": "minecraft:string"
+    },
+    "E": {
+      "item": "minecraft:iron_block"
+    },
+    "F": {
+      "item": "slashblade:slashblade"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "H": {
+      "item": "minecraft:sunflower"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DED",
+    "FGH"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

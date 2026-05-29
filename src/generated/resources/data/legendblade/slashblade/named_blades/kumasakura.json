@@ -1,0 +1,27 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 3
+    }
+  ],
+  "name": "legendblade:kumasakura",
+  "properties": {
+    "attack_base": 19.0,
+    "max_damage": 80,
+    "slash_art": "slashblade:wave_edge",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/pseudo/named/pseudosword/kumasakura/kumasakura.obj",
+    "summon_sword_color": 15662848,
+    "texture": "legendblade:model/pseudo/named/pseudosword/kumasakura/kumasakura.png"
+  }
+}

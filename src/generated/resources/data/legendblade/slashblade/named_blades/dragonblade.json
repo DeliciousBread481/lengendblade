@@ -1,0 +1,39 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:knockback",
+      "lvl": 5
+    }
+  ],
+  "name": "legendblade:dragonblade",
+  "properties": {
+    "attack_base": 40.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:dragon_boost",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/pseudo/named/pseudosword/dragonblade/dragonblade.obj",
+    "summon_sword_color": 16711680,
+    "texture": "legendblade:model/pseudo/named/pseudosword/dragonblade/dragonblade.png"
+  }
+}

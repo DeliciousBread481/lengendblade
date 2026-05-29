@@ -1,0 +1,35 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:vitex",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:obsidian"
+    },
+    "B": {
+      "item": "minecraft:cactus"
+    },
+    "C": {
+      "item": "minecraft:nether_star"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 3000,
+        "name": "legendblade:purplesblade",
+        "proud_soul": 20000,
+        "refine": 10
+      }
+    }
+  },
+  "pattern": [
+    "ABC",
+    "BDB",
+    "CBC"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

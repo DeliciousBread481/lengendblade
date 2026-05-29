@@ -1,0 +1,31 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:smite",
+      "lvl": 10
+    }
+  ],
+  "name": "legendblade:reversed",
+  "properties": {
+    "attack_base": 20.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:allover",
+    "special_effects": [
+      "legendblade:eternal",
+      "slashblade_addon:burst_drive"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/speed/speed.obj",
+    "summon_sword_color": 16711680,
+    "texture": "legendblade:model/speed/speed.png"
+  }
+}

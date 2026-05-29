@@ -1,0 +1,25 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 0
+    }
+  ],
+  "name": "legendblade:mrke",
+  "properties": {
+    "attack_base": 20.0,
+    "max_damage": 80,
+    "slash_art": "slashblade:drive_vertical",
+    "special_effects": [
+      "legendblade:eternal"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/heartblade/mrke.obj",
+    "texture": "legendblade:model/heartblade/mrke.png"
+  }
+}

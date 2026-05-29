@@ -1,0 +1,54 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:nobleblade",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "B": {
+      "item": "minecraft:slime_ball"
+    },
+    "C": {
+      "item": "minecraft:piston"
+    },
+    "D": {
+      "item": "minecraft:jukebox"
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade_silverbamboo",
+      "request": {
+        "enchantments": [
+          {
+            "id": "minecraft:unbreaking",
+            "lvl": 3
+          }
+        ],
+        "kill": 1500,
+        "sword_type": [
+          "broken"
+        ]
+      }
+    },
+    "F": {
+      "item": "minecraft:diamond_axe"
+    },
+    "G": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "refine": 30
+      }
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DED",
+    "FGF"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

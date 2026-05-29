@@ -1,0 +1,22 @@
+{
+  "name": "legendblade:solemnlament",
+  "properties": {
+    "attack_base": 32.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:butterfly",
+    "special_effects": [
+      "legendblade:eternal",
+      "legendblade:physics_department_fly",
+      "legendblade:solemn_mourning"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/heartblade/solemnlament.obj",
+    "summon_sword_color": 0,
+    "texture": "legendblade:model/heartblade/solemnlament.png"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#legendblade:plants/proud_soul_biomes",
+  "features": "legendblade:proud_soul_tree_placed",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "legendblade:rustkingsowrd",
+  "properties": {
+    "attack_base": 5.0,
+    "max_damage": 80,
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/lostblade/kingsword/kingsword.obj",
+    "summon_sword_color": 16711680,
+    "texture": "legendblade:model/lostblade/kingsword/kingsword_rusty.png"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:smite",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 3
+    }
+  ],
+  "name": "legendblade:magicblade",
+  "properties": {
+    "attack_base": 32.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:blackslash",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/pseudo/named/pseudosword/magicblade/magicblade.obj",
+    "summon_sword_color": 0,
+    "texture": "legendblade:model/pseudo/named/pseudosword/magicblade/magicblade.png"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:holy",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_block"
+    },
+    "B": {
+      "item": "minecraft:diamond_block"
+    },
+    "C": {
+      "item": "minecraft:gold_block"
+    },
+    "D": {
+      "item": "minecraft:lapis_block"
+    },
+    "E": {
+      "item": "minecraft:glowstone"
+    },
+    "F": {
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "G": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 1000,
+        "name": "legendblade:zein",
+        "proud_soul": 1500,
+        "refine": 10
+      }
+    }
+  },
+  "pattern": [
+    "AEB",
+    "FGF",
+    "CED"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

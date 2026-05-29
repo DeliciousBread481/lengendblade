@@ -1,0 +1,38 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:knockback",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:punch",
+      "lvl": 10
+    }
+  ],
+  "name": "legendblade:lemirex",
+  "properties": {
+    "attack_base": 32.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:rot_slash",
+    "special_effects": [
+      "legendblade:justice"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/virtue/two/lemirex/1.obj",
+    "summon_sword_color": 14540253,
+    "texture": "legendblade:model/virtue/two/lemirex/1.png"
+  }
+}

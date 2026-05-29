@@ -1,0 +1,44 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:whitesword",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:nether_star"
+    },
+    "B": {
+      "item": "minecraft:iron_block"
+    },
+    "C": {
+      "item": "minecraft:diamond_block"
+    },
+    "D": {
+      "item": "slashblade:proudsoul"
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 1500,
+        "name": "legendblade:xblades",
+        "proud_soul": 20000,
+        "refine": 10
+      }
+    },
+    "F": {
+      "item": "minecraft:obsidian"
+    },
+    "G": {
+      "item": "slashblade:proudsoul_sphere"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DEF",
+    "DDG"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

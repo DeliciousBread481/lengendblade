@@ -1,0 +1,32 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:kingsowrd",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:nether_star"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 4000,
+        "name": "legendblade:rustkingsowrd",
+        "proud_soul": 88888,
+        "refine": 80
+      }
+    },
+    "C": {
+      "item": "minecraft:dragon_egg"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    "ACA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

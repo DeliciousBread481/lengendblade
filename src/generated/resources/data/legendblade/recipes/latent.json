@@ -1,0 +1,41 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:latent",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:nether_star"
+    },
+    "B": {
+      "item": "minecraft:obsidian"
+    },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 1000,
+        "name": "legendblade:xblades",
+        "proud_soul": 20000,
+        "refine": 10
+      }
+    },
+    "D": {
+      "item": "minecraft:blaze_rod"
+    },
+    "E": {
+      "item": "minecraft:iron_block"
+    },
+    "F": {
+      "item": "minecraft:spider_eye"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "ACA",
+    "DEF"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

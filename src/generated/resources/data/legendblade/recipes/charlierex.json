@@ -1,0 +1,45 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:charlierex",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "legendblade:godex"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "legendblade:holy"
+      }
+    },
+    "C": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 2500,
+        "name": "legendblade:charlier",
+        "proud_soul": 35000,
+        "refine": 50
+      }
+    },
+    "E": {
+      "item": "legendblade:soul_crystal"
+    },
+    "F": {
+      "item": "minecraft:magenta_dye"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "FEF"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

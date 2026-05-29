@@ -1,0 +1,52 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:xhar",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:diamond_axe"
+    },
+    "B": {
+      "item": "minecraft:cake"
+    },
+    "C": {
+      "item": "slashblade:proudsoul_tiny"
+    },
+    "D": {
+      "item": "minecraft:blaze_rod"
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade_silverbamboo",
+      "request": {
+        "kill": 2500,
+        "proud_soul": 10400,
+        "refine": 50,
+        "sword_type": [
+          "broken"
+        ]
+      }
+    },
+    "F": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "legendblade:wonderblade",
+        "proud_soul": 8400,
+        "refine": 42
+      }
+    },
+    "G": {
+      "item": "minecraft:diamond_boots"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DED",
+    "CFG"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

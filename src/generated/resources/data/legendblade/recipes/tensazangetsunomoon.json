@@ -1,0 +1,35 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:tensazangetsunomoon",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:netherite_block"
+    },
+    "B": {
+      "item": "slashblade:proudsoul_trapezohedron"
+    },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 50000,
+        "name": "legendblade:tensazangetsu",
+        "proud_soul": 300000,
+        "refine": 1000
+      }
+    },
+    "D": {
+      "item": "minecraft:dragon_egg"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ADA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

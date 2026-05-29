@@ -1,0 +1,35 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:punch",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:knockback",
+      "lvl": 5
+    }
+  ],
+  "name": "legendblade:michaelex",
+  "properties": {
+    "attack_base": 33.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:jusitce_slash",
+    "special_effects": [
+      "legendblade:justice",
+      "legendblade:aryadeva"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/virtue/two/michaelex/1.obj",
+    "summon_sword_color": 14540253,
+    "texture": "legendblade:model/virtue/two/michaelex/1.png"
+  }
+}

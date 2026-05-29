@@ -1,0 +1,16 @@
+{
+  "name": "legendblade:blade_stone",
+  "properties": {
+    "attack_base": 5.0,
+    "max_damage": 80,
+    "slash_art": "slashblade:drive_vertical",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/pseudo/named/pseudosword/blade/blade.obj",
+    "texture": "legendblade:model/pseudo/named/pseudosword/blade/blade3.png"
+  }
+}

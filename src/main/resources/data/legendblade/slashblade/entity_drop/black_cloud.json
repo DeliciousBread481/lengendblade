@@ -1,0 +1,6 @@
+{
+  "blade": "legendblade:blackcloud",
+  "drop_rate": 0.3,
+  "entity_type": "legendblade:no_end",
+  "request_slashblade": false
+}

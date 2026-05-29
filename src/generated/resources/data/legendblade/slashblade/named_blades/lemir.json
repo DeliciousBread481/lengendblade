@@ -1,0 +1,17 @@
+{
+  "name": "legendblade:lemir",
+  "properties": {
+    "attack_base": 15.0,
+    "max_damage": 80,
+    "slash_art": "slashblade:drive_vertical",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/virtue/one/lemir/lemir.obj",
+    "summon_sword_color": 14540253,
+    "texture": "legendblade:model/virtue/one/lemir/lemir.png"
+  }
+}

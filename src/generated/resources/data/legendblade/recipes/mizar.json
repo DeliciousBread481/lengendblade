@@ -1,0 +1,38 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:mizar",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:lapis_block"
+    },
+    "B": {
+      "item": "slashblade:proudsoul_crystal"
+    },
+    "C": {
+      "item": "minecraft:diamond_block"
+    },
+    "D": {
+      "item": "minecraft:iron_block"
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 1500,
+        "name": "legendblade:white",
+        "proud_soul": 7300,
+        "refine": 30
+      }
+    }
+  },
+  "pattern": [
+    "AAB",
+    "CDE",
+    "AAB"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

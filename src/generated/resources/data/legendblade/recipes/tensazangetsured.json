@@ -1,0 +1,35 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:tensazangetsured",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:redstone_block"
+    },
+    "B": {
+      "item": "slashblade:proudsoul_trapezohedron"
+    },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 2500,
+        "name": "legendblade:zangetsu",
+        "proud_soul": 30000,
+        "refine": 15
+      }
+    },
+    "D": {
+      "item": "slashblade:proudsoul_ingot"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ADA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

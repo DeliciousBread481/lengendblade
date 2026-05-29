@@ -1,0 +1,50 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:metatron",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_helmet"
+    },
+    "B": {
+      "item": "minecraft:anvil"
+    },
+    "C": {
+      "item": "legendblade:god"
+    },
+    "D": {
+      "item": "minecraft:diamond_sword"
+    },
+    "E": {
+      "item": "minecraft:diamond_chestplate"
+    },
+    "F": {
+      "item": "minecraft:shield"
+    },
+    "G": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 1000,
+        "name": "legendblade:zein",
+        "proud_soul": 1500,
+        "refine": 10
+      }
+    },
+    "H": {
+      "item": "minecraft:leather_boots"
+    },
+    "I": {
+      "item": "minecraft:golden_leggings"
+    }
+  },
+  "pattern": [
+    "ABD",
+    "CGE",
+    "FHI"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

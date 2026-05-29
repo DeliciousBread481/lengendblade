@@ -1,0 +1,22 @@
+{
+  "name": "legendblade:reverse_solomon",
+  "properties": {
+    "attack_base": 40.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:alloverex",
+    "special_effects": [
+      "legendblade:occupyingheart",
+      "legendblade:seizetheblood",
+      "legendblade:compassionfortorture"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/solmen/reverse_solomon.obj",
+    "summon_sword_color": 16711680,
+    "texture": "legendblade:model/solmen/reverse_solomon.png"
+  }
+}

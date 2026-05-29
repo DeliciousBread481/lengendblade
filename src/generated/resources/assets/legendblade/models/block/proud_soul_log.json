@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "legendblade:block/proud_soul_log_top",
+    "side": "legendblade:block/proud_soul_log"
+  }
+}

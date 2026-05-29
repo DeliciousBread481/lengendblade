@@ -1,0 +1,37 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:wonderblade",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:golden_apple"
+    },
+    "B": {
+      "item": "minecraft:diamond_block"
+    },
+    "C": {
+      "tag": "forge:ores/emerald"
+    },
+    "D": {
+      "item": "minecraft:gold_block"
+    },
+    "E": {
+      "item": "legendblade:wonder_reactor"
+    },
+    "F": {
+      "item": "minecraft:redstone_block"
+    },
+    "G": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DEF",
+    "CGA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

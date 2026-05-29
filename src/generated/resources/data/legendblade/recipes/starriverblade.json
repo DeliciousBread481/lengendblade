@@ -1,0 +1,60 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:starriverblade",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:golden_sword"
+    },
+    "B": {
+      "item": "minecraft:yellow_bed"
+    },
+    "C": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "D": {
+      "item": "minecraft:glowstone"
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "enchantments": [
+          {
+            "id": "minecraft:smite",
+            "lvl": 5
+          },
+          {
+            "id": "minecraft:unbreaking",
+            "lvl": 3
+          }
+        ],
+        "name": "slashblade:sange",
+        "proud_soul": 30000,
+        "refine": 30
+      }
+    },
+    "F": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 1000,
+        "name": "legendblade:wonderblade",
+        "proud_soul": 30000,
+        "refine": 60
+      }
+    },
+    "G": {
+      "item": "minecraft:cactus"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DED",
+    "CFG"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

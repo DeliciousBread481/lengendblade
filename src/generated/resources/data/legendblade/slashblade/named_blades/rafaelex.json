@@ -1,0 +1,35 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:punch",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:knockback",
+      "lvl": 5
+    }
+  ],
+  "name": "legendblade:rafaelex",
+  "properties": {
+    "attack_base": 35.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:heal_slash",
+    "special_effects": [
+      "legendblade:justice",
+      "legendblade:healis"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/virtue/two/rafaelex/1.obj",
+    "summon_sword_color": 14540253,
+    "texture": "legendblade:model/virtue/two/rafaelex/1.png"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:thorns",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 10
+    }
+  ],
+  "name": "legendblade:blackcloud",
+  "properties": {
+    "attack_base": 25.0,
+    "max_damage": 80,
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/lostblade/blackcloud/blackcloud.obj",
+    "summon_sword_color": 42495,
+    "texture": "legendblade:model/lostblade/blackcloud/blackcloud.png"
+  }
+}

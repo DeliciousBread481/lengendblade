@@ -1,0 +1,26 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 3
+    }
+  ],
+  "name": "legendblade:latent",
+  "properties": {
+    "attack_base": 25.0,
+    "max_damage": 80,
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/pseudo/named/pseudosword/emptyblade/emptyblade.obj",
+    "summon_sword_color": 0,
+    "texture": "legendblade:model/pseudo/named/pseudosword/latent/latent.png"
+  }
+}

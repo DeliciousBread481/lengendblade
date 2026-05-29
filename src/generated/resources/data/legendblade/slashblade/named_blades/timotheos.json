@@ -1,0 +1,25 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 3
+    }
+  ],
+  "name": "legendblade:timotheos",
+  "properties": {
+    "attack_base": 7.0,
+    "max_damage": 80,
+    "special_effects": [
+      "prinegorerouse:oracle"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "legendblade:model/named/rustgodfox/model.obj",
+    "summon_sword_color": 16711680,
+    "texture": "legendblade:model/mrzhu/timotheos.png"
+  }
+}

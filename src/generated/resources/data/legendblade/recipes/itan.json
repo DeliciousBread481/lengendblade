@@ -1,0 +1,35 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:itan",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:porkchop"
+    },
+    "B": {
+      "item": "minecraft:grass_block"
+    },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "legendblade:wonderblade"
+      }
+    },
+    "D": {
+      "item": "slashblade:proudsoul_tiny"
+    },
+    "E": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "DCD",
+    "AEA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}
