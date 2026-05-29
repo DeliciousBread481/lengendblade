@@ -45,6 +45,10 @@ public class SumonSwordEntityFlaxy extends absNeoSummonSword {
 
     private static final EntityDataAccessor<Vector3f> OFFSET = SynchedEntityData.defineId(SumonSwordEntityFlaxy.class, EntityDataSerializers.VECTOR3);
     long fireTime = -1;
+    
+    private int searchCooldown = 0;
+    private static final int SEARCH_INTERVAL = 5;
+    private static final double SEARCH_RADIUS = 12.0;
 
     public SumonSwordEntityFlaxy(EntityType<? extends Projectile> entityTypeIn, Level worldIn) {
         super(entityTypeIn, worldIn);
@@ -100,27 +104,43 @@ public class SumonSwordEntityFlaxy extends absNeoSummonSword {
         var sender = getOwner1();
         if (sender ==null)return;
         Level worldIn = sender.level();
-        Vec3 dir = this.getViewVector(0);
-        final Vec3 _center = new Vec3(this.getX(), this.getY(), this.getZ());
-        List<Entity> _entfound = this.level().getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(60 / 2d), a -> true)
-                .stream()
-                .sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center)))
-                .toList();
+        Vec3 dir;
+        
+        if (searchCooldown <= 0) {
+            final Vec3 _center = new Vec3(this.getX(), this.getY(), this.getZ());
+            List<Entity> _entfound = this.level().getEntitiesOfClass(Entity.class,
+                    new AABB(_center, _center).inflate(SEARCH_RADIUS),
+                    e -> e instanceof LivingEntity && e.isAlive() && e != getOwner1() && e != this)
+                    .stream()
+                    .sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center)))
+                    .toList();
 
-        Optional<Entity> entityiterator = _entfound.stream()
-                .filter(e -> e instanceof LivingEntity && ((LivingEntity) e).getHealth() > 0 && e != getOwner1() && e != this)
-                .findFirst();
-        Vec3 targetPos = entityiterator.map((e) -> new Vec3(e.getX(), e.getY() + e.getEyeHeight() * 0.5, e.getZ()))
-                .orElseGet(() ->
-                {
-                    Vec3 start = sender.getEyePosition(1.0f);
-                    Vec3 end = start.add(sender.getLookAngle().scale(40));
-                    HitResult result = worldIn.clip(new ClipContext(start, end, ClipContext.Block.COLLIDER, ClipContext.Fluid.NONE, sender));
-                    return result.getLocation();
-                });
-        Vec3 pos = this.getPosition(0.0f);
-        dir = targetPos.subtract(pos).normalize();
-        this.shoot(dir.x , dir.y , dir.z,getSpeed(),1f );
+            searchCooldown = SEARCH_INTERVAL;
+
+            Optional<Entity> entityiterator = _entfound.stream()
+                    .filter(e -> e instanceof LivingEntity && ((LivingEntity) e).getHealth() > 0)
+                    .findFirst();
+            Vec3 targetPos = entityiterator.map((e) -> new Vec3(e.getX(), e.getY() + e.getEyeHeight() * 0.5, e.getZ()))
+                    .orElseGet(() ->
+                    {
+                        Vec3 start = sender.getEyePosition(1.0f);
+                        Vec3 end = start.add(sender.getLookAngle().scale(40));
+                        HitResult result = worldIn.clip(new ClipContext(start, end, ClipContext.Block.COLLIDER, ClipContext.Fluid.NONE, sender));
+                        return result.getLocation();
+                    });
+            Vec3 pos = this.getPosition(0.0f);
+            dir = targetPos.subtract(pos).normalize();
+            this.shoot(dir.x , dir.y , dir.z,getSpeed(),1f );
+        } else {
+            searchCooldown--;
+            Vec3 start = sender.getEyePosition(1.0f);
+            Vec3 end = start.add(sender.getLookAngle().scale(40));
+            HitResult result = worldIn.clip(new ClipContext(start, end, ClipContext.Block.COLLIDER, ClipContext.Fluid.NONE, sender));
+            Vec3 targetPos = result.getLocation();
+            Vec3 pos = this.getPosition(0.0f);
+            dir = targetPos.subtract(pos).normalize();
+            this.shoot(dir.x , dir.y , dir.z,getSpeed(),1f );
+        }
     }
 
     private static final EntityDataAccessor<Integer> OWNERIDD;
