@@ -34,6 +34,7 @@ import java.util.Optional;
 import java.util.stream.Stream;
 
 public class SumonSwordEntity extends absNeoSummonSword {
+    private static final int MAX_LIFETIME = 20 * 10;
     private static final EntityDataAccessor<Boolean> IT_FIRED = SynchedEntityData.defineId(SumonSwordEntity.class, EntityDataSerializers.BOOLEAN);
     private static final EntityDataAccessor<Float> SPEED = SynchedEntityData.defineId(SumonSwordEntity.class, EntityDataSerializers.FLOAT);
 
@@ -95,6 +96,10 @@ public class SumonSwordEntity extends absNeoSummonSword {
         }
 
         super.tick();
+        
+        if (!this.level().isClientSide() && this.tickCount > MAX_LIFETIME) {
+            this.remove(RemovalReason.DISCARDED);
+        }
     }
 
     @Override
@@ -213,6 +218,11 @@ public class SumonSwordEntity extends absNeoSummonSword {
         }
 
         super.onHitEntity(p_213868_1_);
+    }
+    
+    @Override
+    protected void onHitBlock(net.minecraft.world.phys.BlockHitResult p_213868_1_) {
+        this.remove(RemovalReason.DISCARDED);
     }
 
 

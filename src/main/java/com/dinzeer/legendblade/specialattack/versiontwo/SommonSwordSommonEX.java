@@ -35,7 +35,7 @@ public class SommonSwordSommonEX {
             Level worldIn = playerIn.level();
             Vec3 v = playerIn.position();
             int rank = playerIn.getCapability(CapabilityConcentrationRank.RANK_POINT).map(r -> r.getRank(worldIn.getGameTime()).level).orElse(0);
-            int count = 500;
+            int count = 50;
             SMoveUtil.sendDashMessage((Player) playerIn, 3, -0.5);
 
             Legendblade.queueServerWork(25, () -> {
